@@ -11,7 +11,7 @@ namespace GlobalStructurList.UnitTests
         public void TestMethod1()
         {
             var gslAccess = new GlobalStructureListAccess() { 
-                GlobalDbPath = @"T:\GSL\GlobalStructureListMain\GlobalStructurList.UnitTests\Data\global.db"
+                GlobalDbPath = @"..\..\Data\global.db"
             };
 
             var gsl = gslAccess.CurrentList;
